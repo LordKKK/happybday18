@@ -1,0 +1,43 @@
+
+body {
+    background-color: hsl(330, 90%, 80%);
+    background-image: url('conff.gif');
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Ensure body covers entire viewport height */
+}
+
+.gezuar {
+   text-align: center; 
+   margin-top: 5%; 
+   outline: #F2AF;
+   font-size: 200%;
+}
+
+.kliko {
+    font-family:'Tangerine' ;
+    font-size: 200%;
+    text-decoration: underline;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Add more shadow effect */
+    
+}
+
+.kliko a {
+    color: inherit; /* or specify the color you want */
+    text-decoration: inherit; /* inherit or specify text-decoration */
+  }
+  
+
+h1 { 
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow to text */
+}
+
+.kliko:hover {
+    cursor: pointer; /* Change cursor on hover */
+    color: #441b1b; /* Change text color on hover */
+
+  } 
